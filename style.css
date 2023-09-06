@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+body{
+    background-image: url(fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-family: 'Capriola', sans-serif;
+
+}
+h1{
+    font-family: Capriola;
+    color: cornflowerblue;
+    text-shadow: 5px 3px 10px rgb(4, 4, 33) ;
+}
+textarea{
+    resize:none;
+    width: 100%;
+}
+fieldset{
+    width: 500px;
+    cursor: pointer;
+    border-radius: 25px;
+    box-shadow: 5px 3px 10px black;
+}
+
+.game {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img{
+    display: flex;
+    height: 500px;
+    margin-left: 30px;
+    margin-top: -750px;
+}
+#botao{
+    display: flex;
+    border-radius: 10px;
+    color: aliceblue;
+    height: 50px;
+    background-color: rgb(108, 108, 222);
+    margin-top: 30px;
+    margin-left: 225px;
+    padding: 10px;
+    font-size: large;
+    font-family: Capriola;
+    box-shadow: 5px 3px 10px black;
+}
+#botao:hover{
+    cursor: pointer;
+    background-color: rgb(62, 62, 184);
+    transform: translateY(5px);
+}
+#commit{
+    border-radius: 20px;
+}
+#a{
+    background-color: rgb(114, 114, 199);
+    color: aliceblue;
+    font-size: large;
+    border-radius: 10px;
+    box-shadow: 5px 3px 10px black;
+    font-family: Capriola;
+}
+#a:hover{
+    cursor: pointer;
+    background-color: rgb(79, 72, 139);
+    transform: translateY(5px);
+}
+#nome{
+    color: rgb(38, 38, 93);
+    border-radius: 10px;
+}
+#email{
+    color: rgb(24, 24, 80);
+    border-radius: 10px;
+}
+#password{
+    color: rgb(8, 8, 55);
+    border-radius: 10px;
+}
+#name{
+    color: rgb(139, 139, 224);
+}
+#em{
+    color: rgb(139, 139, 224);
+}
+#senha{
+    color: rgb(139, 139, 224);
+}
